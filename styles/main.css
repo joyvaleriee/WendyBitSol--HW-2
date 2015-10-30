@@ -45,7 +45,7 @@ body {
 	pointer-events:none;
 }
 
-/* styles for .content-bookend */
+/* styles for .content--bookend */
 
 .content--bookend {
 	padding-top: 20px;
@@ -59,3 +59,49 @@ body {
 	margin: 0; 
 }
 
+/*styles for .summary aka the resume summary*/
+
+.summary {
+	color: white;
+	padding: 30px, 0;
+	font-size: 18px;
+	font-style: bold;
+}
+
+.summary__title {
+	font-family: arial;
+	font-size: 20px;
+
+}
+ ul {
+ 	list-style-type: square;
+ }
+
+
+.content--main {
+	padding: 10px;
+	color: white;
+
+}
+
+.content--main__title {
+	color: rgb(225,225,225);
+	font-family: arial;
+	font-size: 15px;
+	text-transform: uppercase;
+	font-style: bold;
+}
+
+
+.content--main__title--subtitle {
+	display: inline;
+	font-family: arial;
+	font-style: bold;
+}
+
+.content--main__title--date {
+	display: inline-block;
+	font-size: 15px;
+	color: rgb(173,196,222);
+	padding-top:
+}
